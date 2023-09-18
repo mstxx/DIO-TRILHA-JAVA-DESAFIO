@@ -18,9 +18,9 @@ public class ContaTerminal {
 		double saldo;	
 		
 		System.out.print("Digite o seu nome: ");
-		nomeCliente = scan.next();
+		nomeCliente = scan.nextLine();
 		System.out.print("Digite o número da agência mais próxima de você: ");
-		agência = scan.next();
+		agência = scan.nextLine();
 		System.out.print("Digite o número da conta que você deseja: ");
 		conta = scan.nextInt();
 		System.out.print("Qual o valor para seu primeiro depósito? ");
